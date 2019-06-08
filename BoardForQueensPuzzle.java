@@ -4,9 +4,9 @@
  */
 
 public class BoardForQueensPuzzle {
-    private int lastRankFilled;  /* the highest-numbered rank
+    public int lastRankFilled;  /* the highest-numbered rank
       that holds a queen. */
-    private int[] filesWithQueens;  /* indexed by rank, giving
+    public int[] filesWithQueens;  /* indexed by rank, giving
       the file number that a queen occupies in that rank.
       Interacts with lastRankFilled: entries in filesWithQueens
       are meaningful only for ranks <= lastRankFilled. Entries
